@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mohid</title>
+    <!-- STYLES -->
+    <link rel="stylesheet" href="./css/normalize.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/style.min.css" />
+  </head>
+  <body>
+    <div class="site-header-hero-wrapper">
+      <header class="site-header">
+        <div class="site-header__container container">
+          <a class="site-header__logo logo" href="index.html">
+            <img
+              class="logo__img"
+              src="./images/svg/site-logo.svg"
+              alt="Mohid"
+              width="78"
+              height="27"
+            />
+          </a>
+
+          <nav class="site-header__sitenav sitenav">
+            <ul class="sitenav__list">
+              <li class="sitenav__item">
+                <a class="sitenav__link" href="#">Home</a>
+              </li>
+              <li class="sitenav__item">
+                <a class="sitenav__link" href="#">Brands</a>
+              </li>
+              <li class="sitenav__item">
+                <a class="sitenav__link" href="#">Recent products</a>
+              </li>
+              <li class="sitenav__item">
+                <a class="sitenav__link" href="#">Contact</a>
+              </li>
+              <li class="sitenav__item">
+                <a class="sitenav__link" href="#">About</a>
+              </li>
+            </ul>
+          </nav>
+          <div class="site-header__right header-right">
+            <a class="header-right__item" href="#">
+              <img
+                src="./images/svg/search-icon.svg"
+                alt="Search icon"
+                width="22"
+                height="23"
+              />
+            </a>
+            <a class="header-right__item" href="#">
+              <img
+                src="./images/svg/account-icon.svg"
+                alt="Account icon"
+                width="22"
+                height="23"
+              />
+            </a>
+            <a class="header-right__item shopping-cart" href="#">
+              <span class="shopping-cart__badge">1</span>
+              <img
+                src="./images/svg/shopping-icon.svg"
+                alt="Shopping icon"
+                width="22"
+                height="23"
+              />
+            </a>
+          </div>
+        </div>
+      </header>
+
+      <div class="hero">
+        <div class="hero__container container">
+          <div class="hero__content">
+            <h1 class="hero__title">Discover most suitable watches</h1>
+            <p class="hero__description">
+              Find the best, reliable, and cheap smart watches here. We focus on
+              product quality. Here you can find smart watches of almost all
+              brands. So why you are waiting? Just order now!
+            </p>
+            <form
+              class="hero__input-wrapper"
+              action="https://echo.htmlacademy.ru"
+              method="POST"
+            >
+              <input
+                class="hero__input"
+                type="search"
+                placeholder="Find the best brands"
+                name="serached-item"
+                required
+              />
+              <button class="hero__button button" type="submit">Search</button>
+            </form>
+          </div>
+          <img
+            class="hero__img"
+            src="./images/png/header-iwach-image.png"
+            alt="Apple watch"
+            width="461"
+            height="563"
+          />
+        </div>
+      </div>
+    </div>
+
+    <section class="section-recommendation">
+      <div class="section-recommendation__container container">
+        <ul class="section-recommendation__list recommended-products">
+          <li
+            class="section-recommendation__item recommended-products__card product-card"
+          >
+            <div class="product-card__inner">
+              <div class="product-card__content">
+                <h3 class="product-card__title">Apple</h3>
+                <p class="product-card__description">
+                  Apple is one of the most famous smart watches providing
+                  company.
+                </p>
+              </div>
+              <img
+                class="product-card__img"
+                src="./images/png/main-iwatch.png"
+                alt="Apple watch"
+                width="85"
+                height="149"
+              />
+            </div>
+          </li>
+          <li
+            class="section-recommendation__item recommended-products__card product-card"
+          >
+            <div class="product-card__inner">
+              <div class="product-card__content">
+                <h3 class="product-card__title">Xiaomi</h3>
+                <p class="product-card__description">
+                  Xiaomi smart watches are produced by MI company.
+                </p>
+              </div>
+              <img
+                class="product-card__img"
+                src="./images/png/main-xiaomi-watch.png"
+                alt="Xiaomi watch"
+                width="85"
+                height="149"
+              />
+            </div>
+          </li>
+          <li
+            class="section-recommendation__item recommended-products__card product-card"
+          >
+            <div class="product-card__inner">
+              <div class="product-card__content">
+                <h3 class="product-card__title">FitBit</h3>
+                <p class="product-card__description">
+                  FitBit smart watches are best for there health and fitness
+                  features.
+                </p>
+              </div>
+              <img
+                class="product-card__img"
+                src="./images/png/main-fitbit-watch.png"
+                alt="FitBit watch"
+                width="85"
+                height="149"
+              />
+            </div>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <main class="main-content">
+      <section class="section-products__container container">
+        <div class="section-products__description">
+          Find your favourite smart watch.
+        </div>
+        <h2 class="section-products__title">Our latest products</h2>
+        <ul class="section-latest-products__list">
+          <li class="section-latest-products__item">
+            <h3 class="section-latest-products__title">Apple smart I</h3>
+            <img src="./images/svg/stars.svg" alt="iwatch I" />
+            <div class="section-latest-products__costs">
+              <span
+                class="section-latest-products__cost section-latest-products__cost--old"
+                >$300.00</span
+              >
+              <span class="section-latest-products__cost">$255.00</span>
+            </div>
+            <div class="section-latest-products__img-wrapper">
+              <img
+                class="section-latest-products__img"
+                src="./images/png/iwatch-l.png"
+                alt="Apple Smart Watch 1"
+              />
+            </div>
+          </li>
+          <li class="section-latest-products__item">
+            <h3 class="section-latest-products__title">Apple smart II</h3>
+            <img src="./images/svg/stars.svg" alt="" />
+            <div class="section-latest-products__costs">
+              <span
+                class="section-latest-products__cost section-latest-products__cost--old"
+                >$300.00</span
+              >
+              <span class="section-latest-products__cost">$255.00</span>
+            </div>
+            <div class="section-latest-products__img-wrapper">
+              <img
+                class="section-latest-products__img"
+                src="./images/png/iwatch-ll.png"
+                alt="Apple Smart Watch 2"
+              />
+            </div>
+          </li>
+          <li class="section-latest-products__item">
+            <h3 class="section-latest-products__title">Apple smart III</h3>
+            <img src="./images/svg/stars.svg" alt="" />
+            <div class="section-latest-products__costs">
+              <span
+                class="section-latest-products__cost section-latest-products__cost--old"
+                >$300.00</span
+              >
+              <span class="section-latest-products__cost">$255.00</span>
+            </div>
+            <div class="section-latest-products__img-wrapper">
+              <img
+                class="section-latest-products__img"
+                src="./images/png/iwatch-lll.png"
+                alt="Apple Smart Watch 3"
+              />
+            </div>
+          </li>
+          <li class="section-latest-products__item">
+            <h3 class="section-latest-products__title">Apple smart IV</h3>
+            <img src="./images/svg/stars.svg" alt="" />
+            <div class="section-latest-products__costs">
+              <span
+                class="section-latest-products__cost section-latest-products__cost--old"
+                >$450.00</span
+              >
+              <span class="section-latest-products__cost">$399.00</span>
+            </div>
+            <div class="section-latest-products__img-wrapper">
+              <img
+                class="section-latest-products__img"
+                src="./images/png/iwatch-lV.png"
+                alt="Apple Smart Watch 4"
+              />
+            </div>
+          </li>
+          <li class="section-latest-products__item">
+            <h3 class="section-latest-products__title">Samsung watch pro</h3>
+            <img src="./images/svg/stars.svg" alt="" />
+            <div class="section-latest-products__costs">
+              <span
+                class="section-latest-products__cost section-latest-products__cost--old"
+                >$300.00</span
+              >
+              <span class="section-latest-products__cost">$255.00</span>
+            </div>
+            <div class="section-latest-products__img-wrapper">
+              <img
+                class="section-latest-products__img"
+                src="./images/png/samsung-watch.png"
+                alt="Samsung Smart Watch"
+              />
+            </div>
+          </li>
+          <li class="section-latest-products__item">
+            <h3 class="section-latest-products__title">Fitbit max 1</h3>
+            <img src="./images/svg/stars.svg" alt="" />
+            <div class="section-latest-products__costs">
+              <span class="section-latest-products__cost">$155.00</span>
+            </div>
+            <div class="section-latest-products__img-wrapper">
+              <img
+                class="section-latest-products__img"
+                src="./images/png/fitbit-watch-max.png"
+                alt="Fitbit Smart Watch"
+              />
+            </div>
+          </li>
+        </ul>
+        <button class="section-latest-products__button button" type="button">
+          View more
+        </button>
+      </section>
+
+      <section class="section-about">
+        <div class="section-about__container container">
+          <div class="section-about__description">
+            Here are our some of the best clients.
+          </div>
+          <h2 class="section-about__title">What people say about us</h2>
+          <ul class="section-about__list">
+            <li class="section-about__item about-card">
+              <div class="about-card__inner">
+                <div class="about-card__content">
+                  <h3 class="about-card__title">Hamza faizi</h3>
+                  <p class="about-card__description">
+                    Don’t waste time, just order! This is the best website to
+                    puschase smart watches.
+                  </p>
+                  <img src="./images/svg/stars.svg" alt="" />
+                </div>
+                <img
+                  class="about-card__img"
+                  src="./images/png/hamza.png"
+                  alt="Hamza Faizi"
+                  width="162"
+                  height="179"
+                />
+              </div>
+            </li>
+            <li class="section-about__item about-card">
+              <div class="about-card__inner">
+                <div class="about-card__content">
+                  <h3 class="about-card__title">Hafiz Huzaifa</h3>
+                  <p class="about-card__description">
+                    I’ve been purchasing smart watches of Mohid for a long time.
+                    All the products are good quality.
+                  </p>
+                  <img src="./images/svg/stars.svg" alt="" aria-hidden="true" />
+                </div>
+                <img
+                  class="about-card__img"
+                  src="./images/png/hafiz.png"
+                  alt="Hafiz Huzaifa"
+                  width="162"
+                  height="179"
+                />
+              </div>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="section-cta">
+        <div class="section-cta__wrapper">
+          <div class="section-cta__container container">
+            <div class="section-cta__inner">
+              <div class="section-cta__content">
+                <h2 class="section-cta__title">Subscribe to newsletter</h2>
+                <p class="section-cta__description">
+                  Get free guide about smart watches daily.
+                </p>
+                <form
+                  class="section-cta__input-button-wrapper"
+                  action="https://echo.htmlacademy.ru"
+                  method="POST"
+                >
+                  <input
+                    class="section-cta__input"
+                    type="email"
+                    name="email"
+                    placeholder="Enter Email Address"
+                    required
+                  />
+                  <button class="section-cta__button button">Subscribe</button>
+                </form>
+              </div>
+              <img
+                class="section-cta__img"
+                src="./images/png/footer-iwatch.png"
+                alt="Apple watch"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="site-footer__container container">
+        Copyright @ 2022 | Mohid
+      </div>
+    </footer>
+  </body>
+</html>
